@@ -1,0 +1,80 @@
+@charset"UTF-8";
+
+#tituloTDS {
+    line-height: 31px;
+    padding-right: 10px;
+}
+
+.blocoCurso {
+    display: flex;
+    padding: 10px;
+    margin: 20px auto;
+    height: 100px;
+    box-shadow: 4px 5px 15px 4px rgba(0, 0, 0, 0.342);
+    width: 812px;
+    border-radius: 10px;
+}
+
+.iconeCurso {
+    border-radius: 10px;
+    height: 100px;
+    width: 180px;
+}
+
+.descricaoCurso {
+    padding: 10px;
+    width: 73%;
+}
+
+.borda {
+    border-style: solid;
+    margin-left: 10px;
+    border-top-color: white;
+    border-right-color: white;
+    border-bottom-color: white;
+}
+
+.bordaCor1 {
+    border-left-color: #0000ff;
+}
+
+.bordaCor2 {
+    border-left-color: #065c06;
+}
+
+.bordaCor3 {
+    border-left-color: #070707;
+}
+
+.nomeCurso {
+    font-size: 12px;
+    padding: 20px;
+    line-height: 55px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+#hover1:hover {
+    background-image: linear-gradient(45deg, rgb(47, 47, 255), blue, blue);
+}
+
+#hover2:hover {
+    background-image: linear-gradient(45deg, green, rgb(6, 92, 6), rgb(6, 92, 6));
+}
+
+#hover3:hover {
+    background-image: linear-gradient(45deg, rgb(32, 32, 32), rgb(7, 7, 7), rgb(7, 7, 7));
+}
+
+.cor1 {
+    background-image: linear-gradient(45deg, blue, blue, rgb(47, 47, 255));
+}
+
+.cor2 {
+    background-image: linear-gradient(45deg, rgb(6, 92, 6), rgb(6, 92, 6), green);
+}
+
+.cor3 {
+    background-image: linear-gradient(45deg, rgb(7, 7, 7), rgb(7, 7, 7), rgb(32, 32, 32));
+}
