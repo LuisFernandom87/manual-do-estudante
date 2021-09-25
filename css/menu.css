@@ -10,7 +10,7 @@ nav {
 }
 
 nav a:hover {
-    background-image: linear-gradient(203deg, rgb(255, 0, 157), cyan);
+    box-shadow: 4px 4px 15px 1px rgba(0, 0, 0, 0.411);
     transition: 0.5s;
 }
 
@@ -27,7 +27,7 @@ nav a {
     font-weight: bold;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: white;
 }
 
 #header {
@@ -39,7 +39,7 @@ nav a {
     height: 71px;
     padding: 15px 10px 10px 30px;
     justify-content: space-between;
-    background-image: linear-gradient(7deg, rgb(255, 0, 157), cyan);
+    background-color: rgb(207, 0, 207);
 }
 
 #menu {
@@ -58,13 +58,17 @@ nav a {
 }
 
 @media (max-width: 900px) {
+    #logo {
+        font-size: 15px;
+    }
+    
     #menu {
         display: block;
         position: absolute;
         width: 100%;
         top: 70px;
         right: 0px;
-        background-color: #003351;
+        background-image: linear-gradient(to bottom, rgb(207, 0, 207), blue);
         height: 0px;
         transition: .6s;
         z-index: 1000;
@@ -81,6 +85,7 @@ nav a {
         padding: 1rem 0;
         margin: 0 1rem;
         border-bottom: 2px solid rgba(0, 0, 0, .05);
+        padding-left: 15px;
     }
     #btn-mobile {
         display: flex;
@@ -92,6 +97,7 @@ nav a {
         gap: .5rem;
     }
     #hamburguer {
+        color: white;
         border-top: 2px solid;
         width: 20px;
     }
