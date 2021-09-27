@@ -39,7 +39,7 @@ nav a {
     height: 71px;
     padding: 15px 10px 10px 30px;
     justify-content: space-between;
-    background-color: rgb(207, 0, 207);
+    background-color: rgb(190, 7, 190);
 }
 
 #menu {
@@ -58,17 +58,13 @@ nav a {
 }
 
 @media (max-width: 900px) {
-    #logo {
-        font-size: 15px;
-    }
-    
     #menu {
         display: block;
         position: absolute;
         width: 100%;
         top: 70px;
         right: 0px;
-        background-image: linear-gradient(to bottom, rgb(207, 0, 207), blue);
+        background-image: linear-gradient(to bottom, rgb(190, 7, 190), blue);
         height: 0px;
         transition: .6s;
         z-index: 1000;

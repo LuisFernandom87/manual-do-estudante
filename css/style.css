@@ -8,7 +8,12 @@
 }
 
 h1 {
-    text-align: center;
+    margin: 5px auto auto 20px;
+}
+
+body > p {
+    text-indent: 30px;
+    margin: 20px;
 }
 
 section {
