@@ -7,6 +7,10 @@
     text-decoration: none;
 }
 
+main {
+    padding: 20px;
+}
+
 h1 {
     margin: 5px auto auto 20px;
     text-align: center;
