@@ -9,26 +9,12 @@
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/idsClasses.css">
     <style>
-        #br {
-            display: none;
+        #mainPic {
+            display: flex;
+            width: 100%;
         }
-        @media (max-width:515px) {
-            h1 {
-                font-size: 2em;
-                text-align: center;
-            }
-            #br {
-                display: block;
-            }   
-        }
-        @media (max-width:360px) {
-            h1 {
-                font-size: 20px;
-                text-align: center;
-            }
-            #br {
-                display: block;
-            }
+        main {
+            padding: 30px;
         }
     </style>
 </head>
@@ -55,9 +41,26 @@
     <br>
     <br>
     <br>
-    <h1>Seja Bem-Vindo(a) <br id="br"> Estudante!!!</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, accusantium voluptates. Porro quae voluptatum similique veniam modi labore esse aliquam animi reprehenderit ipsum accusamus, recusandae magnam officiis suscipit libero? Vel fugit ex rem amet sapiente. Iusto, illo! Numquam voluptate sunt illo. Omnis doloremque praesentium qui deserunt tempora voluptatem. Corrupti rem earum illo excepturi nesciunt laboriosam? Corrupti, aperiam totam. Similique quos nihil alias harum quibusdam iste libero ratione modi laboriosam quia.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, accusantium voluptates. Porro quae voluptatum similique veniam modi labore esse aliquam animi reprehenderit ipsum accusamus, recusandae magnam officiis suscipit libero? Vel fugit ex rem amet sapiente. Iusto, illo! Numquam voluptate sunt illo. Omnis doloremque praesentium qui deserunt tempora voluptatem. Corrupti rem earum illo excepturi nesciunt laboriosam? Corrupti, aperiam totam. Similique quos nihil alias harum quibusdam iste libero ratione modi laboriosam quia.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, accusantium voluptates. Porro quae voluptatum similique veniam modi labore esse aliquam animi reprehenderit ipsum accusamus, recusandae magnam officiis suscipit libero? Vel fugit ex rem amet sapiente. Iusto, illo! Numquam voluptate sunt illo. Omnis doloremque praesentium qui deserunt tempora voluptatem. Corrupti rem earum illo excepturi nesciunt laboriosam? Corrupti, aperiam totam. Similique quos nihil alias harum quibusdam iste libero ratione modi laboriosam quia.</p>
+    <main>
+        <picture>
+            <source media="(max-width: 1050px)" srcset="images/tilapia.jpg" type="image/jpg" height="400">
+            <img id="mainPic" src="images/tilapia.jpg" alt="">
+        </picture>
+
+        <picture>
+            <source media="(max-width: 1050px)" srcset="images/tilapia.jpg" type="image/jpg" height="400"
+            <img id="mainPic" src="images/tilapia.jpg" alt="">
+        </picture>
+
+        <picture>
+            <source media="(max-width: 1050px)" srcset="images/tilapia.jpg" type="image/jpg" height="400"
+            <img id="mainPic" src="images/tilapia.jpg" alt="">
+        </picture>
+
+        <picture>
+            <source media="(max-width: 1050px)" srcset="images/tilapia.jpg" type="image/jpg" height="400"
+            <img id="mainPic" src="images/tilapia.jpg" alt="">
+        </picture>
+    </main>
 </body>
 </html>
