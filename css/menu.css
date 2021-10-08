@@ -5,10 +5,6 @@
     padding: 0;
 }
 
-nav {
-    margin-right: 20px;
-}
-
 nav a:hover {
     box-shadow: 4px 4px 15px 1px rgba(0, 0, 0, 0.411);
     transition: 0.5s;
@@ -18,7 +14,6 @@ nav a {
     border-radius: 8px;
     color: white;
     text-decoration: none;
-    text-transform: uppercase;
     font-size: 15px;
 }
 
@@ -36,9 +31,10 @@ nav a {
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    height: 71px;
-    padding: 15px 10px 10px 30px;
+    height: 45px;
+    line-height: 50px;
     justify-content: space-between;
+    padding: 0px 10px 0px 10px;
     background-color: rgb(148, 4, 177);
 }
 
@@ -64,7 +60,7 @@ nav a {
         width: 100%;
         top: 70px;
         right: 0px;
-        background-image: linear-gradient(to bottom, rgb(148, 4, 177), blue);
+        background-image: linear-gradient(to bottom, #9404b1, blue);
         height: 0px;
         transition: .6s;
         z-index: 1000;
