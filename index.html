@@ -9,18 +9,39 @@
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/idsClasses.css">
 </head>
+<style>
+    #sla {
+        margin: 30px auto auto auto;
+        padding-top: 30px;
+        border-radius: 0;
+        width: 250px;
+    }
+    #sk {
+        margin: 0 132.5px;
+        min-width: 250px;
+    }
+    @media (max-width: 360px) {
+        #sla {
+            
+        }
+        #sk {
+        margin: auto auto auto 30px;
+        min-width: 250px;
+        }
+    }
+</style>
 <body>
     <div id="header_background">
         <header id="header">
             <a href="#" id="logo">
-                Manual do Estudante
+                <img id="logoImg" src="images/manu-logo.png" alt="LOGO">
+                <p>Manual do Estudante</p>
             </a>
             <nav id="nav">
                 <button id="btn-mobile">
                     <span id="hamburguer"></span>
                 </button>
                 <ul id="menu">
-                    <br>
                     <p id="cole">Coleções:</p>
                     <li><a href="html/ta.html">Trabalhos acadêmicos</a></li>
                     <li><a href="html/habitos.html">Hábitos</a></li>
@@ -28,8 +49,12 @@
                 </ul>
             </nav>
         </header>
+        <div id="sk">
+            <img id="sla" src="images/img3.png" alt="IMG">
+        </div> 
+        <h1 id="h1Main">Manual do Estudante</h1>
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#9404b1" fill-opacity="1" d="M0,320L60,293.3C120,267,240,213,360,208C480,203,600,245,720,234.7C840,224,960,160,1080,133.3C1200,107,1320,117,1380,122.7L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+    <img id="wave" src="images/wave.svg" alt="SVG">
     <script src="js/menu.js"></script>
     <br>
     <br>
@@ -40,9 +65,9 @@
             <p>Sou um parágrafo. Clique aqui para editar e adicionar o seu próprio texto. É fácil! Basta clicar em "Editar Texto" ou clicar duas vezes sobre mim para adicionar o seu conteúdo e trocar fontes. Sinta-se à vontade para arrastar e soltar em qualquer lugar da página. Sou um ótimo lugar para você contar sua história aos seus clientes.  Este é um ótimo espaço para escrever um texto longo sobre a sua empresa e seus serviços. Você pode usar esse espaço para detalhar sua empresa.</p>
         </section>
         <section class="grid">
-            <div>
-                <img src="images/lobo4.jpg" width="900px" height="500px">
-            </div>
+            
+                <img id="imgMain" src="images/lobo4.jpg" width="900px" height="500px">
+            
             <div class="downbar">
                 <div>
                     <img src="images/lobo3.jpg">
@@ -60,5 +85,11 @@
             <p>Sou um parágrafo. Clique aqui para editar e adicionar o seu próprio texto. É fácil! Basta clicar em "Editar Texto" ou clicar duas vezes sobre mim para adicionar o seu conteúdo e trocar fontes. Sinta-se à vontade para arrastar e soltar em qualquer lugar da página. Sou um ótimo lugar para você contar sua história aos seus clientes.  Este é um ótimo espaço para escrever um texto longo sobre a sua empresa e seus serviços. Você pode usar esse espaço para detalhar sua empresa.</p>
         </section>
     </main>
+    <footer>
+        <a href="#" id="astra">
+            <img id="astraImg" src="images/logo.png" alt="LOGO">
+            <p>Astra Lupos</p>
+        </a>
+    </footer>
 </body>
 </html>

@@ -1,9 +1,19 @@
 @charset"UTF-8";
 
+#wave {
+    margin-top: -1px;
+}
+
+#h1Main {
+   margin-top: 20px;
+   color: white;
+   font-family: "Ubuntu", Arial;
+}
+
 #header_background {
     background-color: #9404b1;
-    width: 100%;
-    height: 300px;
+    height: 350px;
+    
 }
 
 #tituloTDS {
@@ -13,11 +23,44 @@
 
 #cole {
     color: white;
-    margin: 0px 0px 8px 15px;
+    margin: 25px 0px 8px 15px;
     font-size: 23px;
     visibility: hidden;
-    }
+}
 
+#logo {
+    display: flex;
+}
+
+#logo p {
+    font-family: "Josefin Slab", Arial;
+    margin-left: -20px;
+    font-size: 30px;
+    color: white;
+}
+
+#logoImg {
+    margin-top: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+#astra {
+    display: flex;
+}
+
+#astra p {
+    font-family: "Josefin Slab", Arial;
+    margin-left: -20px;
+    font-size: 30px;
+    color: white;
+}
+
+#astraImg {
+    margin-top: 15px;
+    width: 50px;
+    height: 50px;
+}
 
 .grid {
     display: grid;
@@ -25,6 +68,10 @@
     max-width: 900px;
     margin: 10px auto;
 } 
+
+.grid img {
+    border-radius: 5px;
+}
 
 .grid > div:nth-child(n + 2) {
     display: grid;
@@ -42,6 +89,13 @@
 }
 
 @media (max-width:700px) {
+    #imgMain {
+        width: 100%;
+        height: auto;
+    }
+    img {
+        border-radius: 0;
+    }
     .grid {
         margin: 0px;
     }
