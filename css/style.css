@@ -39,22 +39,3 @@ footer {
     text-align: center;
     bottom: 0;
 }
-
-@media (max-width:446px) {
-    main {
-        background-color: red;
-    }
-    #logo p {
-        font-size: 20px;
-    }
-    #br {
-        display: block;
-    }
-    #sla {
-        
-    }
-    #sk {
-    margin: auto auto auto 30px;
-    min-width: 250px;
-    }
-}

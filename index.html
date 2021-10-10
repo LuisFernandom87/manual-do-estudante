@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/idsClasses.css">
-</head>
-<style>
+</head> <!--Pra deixa responsivo, cria imagem .png da logo msm, desista, ou cria outro site e vai tentando-->
+<style> 
+    #br {
+        display: none;
+    }
     #sla {
         margin: 60px auto auto auto;
         width: 250px;
@@ -17,7 +20,25 @@
     #sk {
         
     }
-    
+    @media (max-width:446px) {
+        main {
+            background-color: red;
+        }
+        #logo  p {
+            font-size: 20px;
+            margin-left: 20px;
+        }
+        #br {
+            display: block;
+        }
+        #sla {
+            
+        }
+        #sk {
+        margin: auto auto auto 30px;
+        min-width: 250px;
+        }
+    }   
 </style>
 <body>
     <div id="header_background">
