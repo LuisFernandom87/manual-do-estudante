@@ -1,5 +1,9 @@
 @charset"UTF-8";
 
+#br {
+    display: none;
+}
+
 #wave {
     margin-top: -1px;
 }
@@ -93,8 +97,8 @@
         width: 100%;
         height: auto;
     }
-    img {
-        border-radius: 0;
+    .grid img {
+        border-radius: 0px;
     }
     .grid {
         margin: 0px;
