@@ -1,0 +1,60 @@
+@charset"UTF-8";
+
+#imgDestak {
+    margin: 60px auto auto auto;
+    padding-top: 20px;
+    width: 250px;
+}
+@media (max-width:446px) {
+    #imgDestak {
+        width: 200px;
+    }
+    #logoImg {
+        margin: 0 5px auto auto;
+    }
+    #logoTxt {
+        display: none;
+    }
+    #logoImgResponsa {
+        display: block;
+        height: 50px;
+    }
+    #logo  p {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+} 
+
+/* ========== idsClasses ========== */
+
+@media (max-width:716px) {
+    #imgMain {
+        width: 100%;
+        height: auto;
+    }
+    .grid img {
+        border-radius: 0px;
+    }
+    .grid {
+        margin: 0px;
+    }
+    .grid > div:nth-child(n + 2) {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0px;
+    }
+    .downbar {
+        margin: 0;
+    }
+    main {
+        padding: 0;
+        margin-top: 14px;
+    }
+}
+
+@media (max-width:916px) {
+    #cole {
+        visibility: visible;
+        text-align: left;
+    }
+}

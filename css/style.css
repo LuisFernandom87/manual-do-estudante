@@ -10,12 +10,6 @@
     text-decoration: none;
 }
 
-main {
-    padding: 20px;
-    max-width: 920px;
-    margin: auto auto 30px auto;
-}
-
 h1 {
     text-align: center;
 }
@@ -27,7 +21,7 @@ img {
 
 body p {
     text-indent: 30px;
-    margin: 20px;
+    padding: 20px;
     text-align: justify;
     line-height: 1.5em;
 }
