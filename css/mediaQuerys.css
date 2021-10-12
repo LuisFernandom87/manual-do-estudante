@@ -5,7 +5,7 @@
     padding-top: 20px;
     width: 250px;
 }
-@media (max-width:446px) {
+@media (max-width:466px) {
     #imgDestak {
         width: 200px;
     }
@@ -54,7 +54,7 @@
 
 @media (max-width:916px) {
     #cole {
-        visibility: visible;
+        display: block;
         text-align: left;
     }
 }

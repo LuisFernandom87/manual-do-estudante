@@ -1,5 +1,10 @@
 @charset"UTF-8";
 
+#copyR  {
+    text-align: center;
+    margin-bottom: -40px;
+}
+
 #logoImgResponsa {
     display: none;
 }
@@ -29,7 +34,7 @@
     color: white;
     margin: 25px 0px 8px 15px;
     font-size: 23px;
-    visibility: hidden;
+    display: none;
 }
 
 #logo {
@@ -51,6 +56,7 @@
 
 #astra {
     display: flex;
+    justify-content: center;
 }
 
 #astra p {
@@ -61,7 +67,6 @@
 }
 
 #astraImg {
-    margin-top: 15px;
     width: 50px;
     height: 50px;
 }
@@ -88,6 +93,6 @@
 }
 
 .texto {
-    margin: auto;
+    margin-top: 20px;
     max-width: 900px;
 }
