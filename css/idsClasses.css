@@ -93,6 +93,6 @@
 }
 
 .texto {
-    margin-top: 20px;
+    margin: 20px auto auto auto;
     max-width: 900px;
 }
