@@ -5,25 +5,6 @@
     padding-top: 20px;
     width: 250px;
 }
-@media (max-width:466px) {
-    #imgDestak {
-        width: 200px;
-    }
-    #logoImg {
-        margin: 0 5px auto auto;
-    }
-    #logoTxt {
-        display: none;
-    }
-    #logoImgResponsa {
-        display: block;
-        height: 50px;
-    }
-    #logo  p {
-        font-size: 20px;
-        margin-left: 20px;
-    }
-} 
 
 /* ========== idsClasses ========== */
 
@@ -49,12 +30,5 @@
     main {
         padding: 0;
         margin-top: 14px;
-    }
-}
-
-@media (max-width:916px) {
-    #cole {
-        display: block;
-        text-align: left;
     }
 }

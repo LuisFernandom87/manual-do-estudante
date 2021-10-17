@@ -1,0 +1,46 @@
+@charset"UTF-8";
+
+#tituloTDS {
+    line-height: 31px;
+    padding-right: 10px;
+}
+
+#center {
+    display: flex;
+    margin: 0px 0px 0px -39px;
+}
+
+#btn {
+    padding: 6px;
+    margin-top: 13px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 4px 7px 18px rgba(0, 0, 0, 0.445);
+    background-color: #FFB703;
+    color: black;
+}
+
+#btn:hover {
+    box-shadow: -1px 1px 17px 4px rgba(255, 255, 255, 0.445);
+}
+
+.form {
+    text-align: center;
+    align-items: center;
+}
+
+.caixaTxt {
+    background-color: white;
+    margin: 10px 10px;
+    border-style: none;
+    box-shadow: 4px 7px 18px rgba(0, 0, 0, 0.445);
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.msg {
+   display: flex;
+   gap: 5px;
+   justify-content: center;
+}

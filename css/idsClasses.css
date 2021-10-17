@@ -4,22 +4,12 @@
     max-width: 900px;
     text-align: justify;
     margin: auto;
-    padding-bottom: 20px;
+    padding: 20px;
 }
 
 #secAle {
     margin-top: -24px;
-    background-color: #EC7357;
-}
-
-#copyR  {
-    margin-left: 5px;
-    text-align: center;
-    margin-bottom: -40px;
-}
-
-#logoImgResponsa {
-    display: none;
+    background-color: var(--cor2);
 }
 
 #wave {
@@ -33,55 +23,9 @@
 }
 
 #header_background {
-    background-color: #9404b1;
+    background-color: var(--cor1);
     height: 350px;
     
-}
-
-#tituloTDS {
-    line-height: 31px;
-    padding-right: 10px;
-}
-
-#cole {
-    color: white;
-    margin: 25px 0px 8px 15px;
-    font-size: 23px;
-    display: none;
-}
-
-#logo {
-    display: flex;
-}
-
-#logo p {
-    font-family: "Josefin Slab", Arial;
-    margin-left: -20px;
-    font-size: 30px;
-    color: white;
-}
-
-#logoImg {
-    margin-top: 15px;
-    width: 50px;
-    height: 50px;
-}
-
-#astra {
-    display: flex;
-    justify-content: center;
-}
-
-#astra p {
-    font-family: "Josefin Slab", Arial;
-    margin-left: -20px;
-    font-size: 30px;
-    color: white;
-}
-
-#astraImg {
-    width: 50px;
-    height: 50px;
 }
 
 .grid {
