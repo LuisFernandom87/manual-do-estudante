@@ -2,9 +2,12 @@
 
 #cent {
     max-width: 900px;
-    text-align: justify;
     margin: auto;
     padding: 20px;
+
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 1.5em;
 }
 
 #secAle {
@@ -25,7 +28,6 @@
 #header_background {
     background-color: var(--cor1);
     height: 350px;
-    
 }
 
 .grid {
@@ -53,4 +55,8 @@
     margin: 20px auto auto auto;
     max-width: 900px;
     padding: 20px;
+
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 1.5em;
 }

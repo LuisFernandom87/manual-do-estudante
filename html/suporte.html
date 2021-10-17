@@ -22,10 +22,11 @@
                 <span id="hamburguer"></span>
             </button>
             <ul id="menu">
+                <li><a href="../index.html">Início</a></li>
                 <p id="cole">Coleções:</p>
-                <li><a href="html/ta.html">Trabalhos acadêmicos</a></li>
-                <li><a href="html/habitos.html">Hábitos</a></li>
-                <li><a href="html/habilidades.html">Habilidades</a></li>
+                <li><a href="ta.html">Trabalhos acadêmicos</a></li>
+                <li><a href="habitos.html">Hábitos</a></li>
+                <li><a href="habilidades.html">Habilidades</a></li>
             </ul>
         </nav>
     </header>
@@ -33,25 +34,19 @@
     <br>
     <br>
     <br>
-    <br>
-    <form method="POST" action="/obg" name="contact" netlify>
-        <div class="form"><span>Nome</span><input required placeholder="Nome" type="text" name="Nome" class="caixaTxt"></div>
-
-        <div class="form"><span>Email</span><input required placeholder="Email" type="text" name="email" class="caixaTxt"></div>
-
-        <div class="msg"><div id="center">
-            <div class="">Mensagem</div><textarea required placeholder="Mensagem" name="Mensagem" rows="6" class="caixaTxt"></textarea>
-        </div></div>
-        
-        <div class="form"><input type="submit" value="Enviar Mensagem" id="btn"></div>
-    </form>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <main>
+        <div id="areaInput">
+            <h1>Manual do Estudante</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus ipsam ducimus rerum at saepe. Cupiditate sequi cum culpa odit esse.</p>
+            <form method="POST" action="/obg" name="contact" netlify>
+                    <input class="campo" required placeholder="Nome" type="text" name="Nome">
+                    <input class="campo" required placeholder="Email" type="text" name="email">
+                    <textarea class="campo" required placeholder="Mensagem" name="Mensagem" rows="6"></textarea>
+                    <input id="btn" type="submit" value="Enviar Mensagem">
+            </form>
+        </div>
+        <img  src="../images/grandeLogo.jpg" alt="">
+    </main>
     <footer>
         <a href="#">
             <p id="copyR">Site desenvolvido por</p>

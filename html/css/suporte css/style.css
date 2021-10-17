@@ -1,2 +1,26 @@
 @charset"UTF-8";
 
+body {
+    background-color: rgb(249, 192, 039);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-self: flex-end;
+    justify-self: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+img {
+    width: 500px;
+    height: 400px;
+}
