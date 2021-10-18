@@ -35,6 +35,8 @@
     --cor3: #5ba899;
     --degrade: linear-gradient(to bottom, var(--cor1), var(--cor2));
     --degradeR: linear-gradient(to bottom, var(--cor2), var(--cor1));
+    --fontJose: Josefin Slab;
+    --fontUbun: Ubuntu;
 }
 
 footer {
@@ -133,6 +135,7 @@ nav a {
     justify-content: space-between;
     padding: 0px 10px;
     background-color: var(--cor1);
+    z-index: 1000px;
 }
 
 #header p {
@@ -157,7 +160,7 @@ nav a {
 
                                         /*Media Querys*/
 
-@media screen and (max-width: 916px) { /*SAKJDAJKJKDJKDAJKJKDJKDAJKJKDJKDAJKJKDJK*/
+@media screen and (max-width: 910px) { /*SAKJDAJKJKDJKDAJKJKDJKDAJKJKDJKDAJKJKDJK*/
     #menu a {
         font-size: 17px;
     }
@@ -233,14 +236,14 @@ nav a {
     }
 }
 
-@media (max-width:916px) { /*SAKJDAJKJKDJKDAJKJKDJKDAJKJKDJKDAJKJKDJK*/
+@media (max-width:910px) { /*SAKJDAJKJKDJKDAJKJKDJKDAJKJKDJKDAJKJKDJK*/
     #cole {
         display: block;
         text-align: left;
     }
 }
 
-@media (max-width:466px) { /*SAKJDAJKJKDJKDAJKJKDJKDAJKJKDJKDAJKJKDJK*/
+@media (max-width:460px) { /*SAKJDAJKJKDJKDAJKJKDJKDAJKJKDJKDAJKJKDJK*/
     #imgDestak {
         width: 200px;
     }
