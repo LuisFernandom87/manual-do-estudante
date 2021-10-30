@@ -71,10 +71,6 @@ nav a {
 
                                         /* Ids and Classes */
 
-#logoImgResponsa {
-    display: none;
-}
-
 #cole {
     color: white;
     margin: 25px 0px 8px 15px;
@@ -236,29 +232,9 @@ nav a {
     }
 }
 
-@media (max-width:910px) { /*SAKJDAJKJKDJKDAJKJKDJKDAJKJKDJKDAJKJKDJK*/
+@media (max-width:910px) { 
     #cole {
         display: block;
         text-align: left;
     }
 }
-
-@media (max-width:460px) { /*SAKJDAJKJKDJKDAJKJKDJKDAJKJKDJKDAJKJKDJK*/
-    #imgDestak {
-        width: 200px;
-    }
-    #logoImg {
-        margin: 0 5px auto auto;
-    }
-    #logoTxt {
-        display: none;
-    }
-    #logoImgResponsa {
-        display: block;
-        height: 50px;
-    }
-    #logo  p {
-        font-size: 20px;
-        margin-left: 20px;
-    }
-} 

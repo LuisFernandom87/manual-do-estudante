@@ -1,6 +1,12 @@
 @charset"UTF-8";
 
 h1 {
+    background-image: linear-gradient(to bottom, #9404b1, #EC7357);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+
+    text-align: center;
     color: white;
     font-family: var(--fontJose);
 }
