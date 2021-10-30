@@ -23,7 +23,7 @@ h1 {
 }
 
 #btn:hover {
-    box-shadow: 4px 7px 18px rgba(0, 0, 0, 0.445);
+    color: white;
 }
 
 .campo {
