@@ -17,13 +17,13 @@ h1 {
     border-radius: 10px;
     border-style: none;
     background-color: #9404b1;
-    color: black;
+    color: white;
     width: 50%;
     align-self: center;
 }
 
 #btn:hover {
-    color: white;
+    color: yellow;
 }
 
 .campo {
