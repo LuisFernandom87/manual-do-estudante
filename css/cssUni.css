@@ -238,3 +238,27 @@ nav a {
         text-align: left;
     }
 }
+
+#logoImgResponsa {
+    display: none;
+}
+
+@media (max-width:460px) { 
+    #imgDestak {
+        width: 200px;
+    }
+    #logoImg {
+        margin: 0 5px auto auto;
+    }
+    #logoTxt {
+        display: none;
+    }
+    #logoImgResponsa {
+        display: block;
+        height: 50px;
+    }
+    #logo  p {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+} 
