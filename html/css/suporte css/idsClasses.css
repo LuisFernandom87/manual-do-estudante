@@ -14,7 +14,7 @@ h1 {
 #areaInput {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    max-width: 400px;
 }
 
 #btn {
@@ -30,6 +30,10 @@ h1 {
 
 #btn:hover {
     color: yellow;
+}
+
+#adj {
+    margin: 10px 10px;
 }
 
 .campo {

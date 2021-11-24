@@ -18,6 +18,7 @@ main {
     display: flex;
     gap: 20px;
     padding: 20px;
+    justify-content: space-between;
 }
 
 img {
