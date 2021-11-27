@@ -9,12 +9,10 @@
 /* ========== idsClasses ========== */
 
 @media (max-width:710px) {
-    #imgMain {
-        width: 100%;
-        height: auto;
-    }
     .grid img {
         border-radius: 0px;
+        width: 100%;
+        height: 350px;
     }
     .grid {
         margin: 0px;

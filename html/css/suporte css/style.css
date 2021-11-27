@@ -19,9 +19,6 @@ main {
     gap: 20px;
     padding: 20px;
     justify-content: space-between;
-}
-
-img {
-    width: 500px;
-    height: 400px;
+    max-width: 1000px;
+    margin: auto;
 }
