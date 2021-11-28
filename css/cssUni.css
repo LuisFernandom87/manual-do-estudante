@@ -68,6 +68,7 @@ footer p {
 
 #redes1, #redes2 {
     transition: 0.7s;
+    width: 24px;
 }
 
 #redes1:hover {
@@ -76,6 +77,19 @@ footer p {
 
 #redes2:hover {
     transform: scale(1.2);
+}
+
+@media (max-width: 710px) {
+    footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+    #redes {
+        flex-direction: row;
+    }
+    #ete {
+        margin: auto;
+    }
 }
 
 /* Menu */
