@@ -1,22 +1,7 @@
 @charset"UTF-8";
 
-#cent {
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
-
-    text-indent: 30px;
-    text-align: justify;
-    line-height: 1.5em;
-}
-
 #logoImgResponsa {
     display: none;
-}
-
-#secAle {
-    margin-top: -24px;
-    background-image: url(../images/svgBackGround1.svg);
 }
 
 #wave {
