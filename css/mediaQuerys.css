@@ -1,13 +1,3 @@
-@charset"UTF-8";
-
-#imgDestak {
-    margin: 60px auto auto auto;
-    padding-top: 20px;
-    width: 250px;
-}
-
-/* ========== idsClasses ========== */
-
 @media (max-width:710px) {
     .grid img {
         border-radius: 0px;

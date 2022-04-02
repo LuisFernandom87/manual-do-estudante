@@ -1,12 +1,13 @@
 @charset"UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:  var(--fontBIZ), Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
 
@@ -29,24 +30,25 @@
 }
 
 :root {
+    --fontA: Source Code Pro;
     --corFooter: #023047;
     --cor1: #9404b1;
     --cor2: #EC7357;
     --cor3: #5ba899;
     --degrade: linear-gradient(to bottom, var(--cor1), var(--cor2));
     --degradeR: linear-gradient(to bottom, var(--cor2), var(--cor1));
-    --fontJose: Josefin Slab;
+    --fontBIZ: BIZ UDPMincho;
     --fontUbun: Ubuntu;
 }
 
 footer {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 30px;
     background-color: var(--corFooter);
     padding: 20px;
     color: white;
-    text-align: center;
     bottom: 0;
 }
 
@@ -62,8 +64,7 @@ footer p {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    justify-content: center;
-    margin-bottom: 12px;
+    align-items: center;
 }
 
 #redes1, #redes2 {
@@ -100,10 +101,54 @@ nav a:hover {
 }
 
 nav a {
-    border-radius: 8px;
+    border-radius: 20px 0px;
     color: white;
     text-decoration: none;
     font-size: 17px;
+    font-family: var(--fontA);
+}
+
+nav ul li {
+    display: inline;
+    position: relative;
+    transition: 3s;
+}
+
+nav ul li ul{
+    transition: 2s;
+}
+
+nav ul li a{
+    display: inline-block;
+}
+
+nav ul ul{
+    display: none;
+    box-shadow: 4px 4px 15px 1px rgba(0, 0, 0, 0.411);
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    position: absolute;
+    padding: 10px;
+    border-radius: 0px 20px;
+    z-index: 17;
+}
+
+nav ul ul li a{
+    border-radius: 0px 20px;
+    justify-content: center;
+    
+}
+
+#gambiarra {
+    border-radius: 20px 0px;
+}
+
+nav ul li:hover ul{
+    display: block;
+    
+}
+
+navu ul li a{
+    display: block;
 }
 
                                         /* Ids and Classes */
@@ -121,14 +166,13 @@ nav a {
 }
 
 #logo p {
-    font-family: "Josefin Slab", Arial;
-    margin-left: -20px;
+    font-family: var(--fontA), Arial;
+    flex-wrap: nowrap;
     font-size: 30px;
     color: white;
 }
 
 #logoImg {
-    margin-top: 18px;
     width: 50px;
     height: 50px;
 }
@@ -139,7 +183,6 @@ nav a {
 }
 
 #astra p {
-    font-family: "Josefin Slab", Arial;
     margin-left: -20px;
     font-size: 30px;
     color: white;
@@ -151,36 +194,38 @@ nav a {
 }
 
 #copyR  {
-    margin-left: 5px;
+    margin-left: 25px;
     text-align: center;
     margin-bottom: -40px;
     color: white;
 }
 
 #header {
+    display: flex;
     position: fixed;
     top: 0;
     width: 100%;
     box-sizing: border-box;
-    display: flex;
+
+    
     align-items: center;
-    height: 60px;
-    line-height: 50px;
+    /*height: 60px;*/
+    
     justify-content: space-between;
-    padding: 0px 10px;
+    padding: 10px;
     background-color: var(--cor1);
-    z-index: 1000px;
+    z-index: 1000;
 }
 
-#header p {
+/*#header p {
     padding: 20px;
-}
+} */
 
 #menu {
-    align-items: center;
     display: flex;
+    align-items: center;
+    gap: 5px;
     list-style: none;
-    gap: .5rem;
 }
 
 #menu a {
@@ -194,7 +239,7 @@ nav a {
 
                                         /*Media Querys*/
 
-@media screen and (max-width: 910px) { /*SAKJDAJKJKDJKDAJKJKDJKDAJKJKDJKDAJKJKDJK*/
+@media screen and (max-width: 910px) { 
     #menu a {
         font-size: 17px;
     }

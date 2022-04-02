@@ -1,5 +1,19 @@
 @charset"UTF-8";
 
+#imgDestak {
+    display: block;
+    margin: auto;
+    padding-top: 80px;
+    width: 250px;
+}
+
+
+
+#h1Main {
+    color: white;
+    font-family: "Ubuntu", Arial;
+ }
+
 #logoImgResponsa {
     display: none;
 }
@@ -8,15 +22,9 @@
     margin-top: -1px;
 }
 
-#h1Main {
-   margin-top: 20px;
-   color: white;
-   font-family: "Ubuntu", Arial;
-}
-
 #header_background {
     background-color: var(--cor1);
-    height: 350px;
+    height: 370px;
 }
 
 .grid {

@@ -9,9 +9,22 @@
     <link rel="stylesheet" href="css/idsClasses.css">
     <link rel="stylesheet" href="css/mediaQuerys.css">
     <link rel="stylesheet" href="css/cssUni.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <style>
+        #a {
+            z-index: 0;
+        }
+    </style>
 </head>
 <body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    
+
+
     <div id="header_background">
         <header id="header">
             <a href="index.html" id="logo">
@@ -26,19 +39,28 @@
                 <ul id="menu">
                     <li><a href="html/suporte.html">Suporte</a></li>
                     <p id="cole">Coleções:</p>
-                    <li><a href="html/habilidades.html">Habilidades</a></li>
-                    <li><a href="html/habitos.html">Hábitos</a></li>
-                    <li><a href="html/ta.html">Trabalhos acadêmicos</a></li>
+                    <li><a id="gambiarra" href="#">Coleções&#128317;</a>
+                        <ul>
+                            <li><a href="html/habilidades.html">Habilidades</a></li>
+                            <li><a href="html/habitos.html">Hábitos</a></li>
+                            <li><a href="html/ta.html">Trabalhos acadêmicos</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Cursos</a></li>
                 </ul>
             </nav>
         </header>
+        <script src="js/menu.js"></script>
+        <div id="Destak">
             <img id="imgDestak" src="images/imgDestak.png" alt="IMGDESTAK">
-        <h1 id="h1Main">Manual do Estudante</h1>
+            <h1 id="h1Main">Manual do Estudante</h1>
+        </div>
     </div>
     <img id="wave" src="images/wave.svg" alt="SVG">
-    <script src="js/menu.js"></script>
+
+
     <main>
-        <section class="texto">
+        <section class="texto" data-aos="fade-up" data-aos-duration="1500">
             <h1>Título Genérico</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo officia saepe, nostrum numquam architecto vel et cumque iure tempora error earum eum pariatur doloribus possimus minus iusto debitis quo impedit temporibus magnam perspiciatis ipsa praesentium? Quidem veniam accusamus, dolores nihil voluptate dolor non a, dolore laboriosam adipisci consequuntur similique nobis qui hic et fugiat odit. Optio obcaecati, quam officiis similique aliquid pariatur numquam cumque delectus iure aut tenetur nisi suscipit.</p>
         </section>
@@ -57,7 +79,21 @@
                 </div>
             </div>
         </section>
+        <section class="container">
+            
+        </section>
+        <section class="container">
+
+        </section>
+        <section class="container">>
+
+        </section>
+        <section class="container">>
+
+        </section>
     </main>
+
+
     <footer>
         <a id="ete" href="https://etepalmares.netlify.app" target="_blank"><img src="../images/etelogo.png" alt="etelogo" width="200px" height="100px"></a>
         <div>
@@ -66,7 +102,7 @@
             </a>
             <a href="astraluposportifolio.netlify.app" id="astra" target="_blank">
                 <img id="astraImg" src="../images/logo.png" alt="LOGO">
-                <p>Astra Lupos&copy;</p>
+                <p>Astra Lupos</p>
             </a>
         </div>
         <div id="redes">
