@@ -1,5 +1,14 @@
 @charset"UTF-8";
 
+:root {
+    --cor1: #9404b1;
+    --cor2: #EC7357;
+    --cor3: #5ba899;
+    --degrade: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    --fontBIZ: BIZ UDPMincho;
+    --fontUbun: Ubuntu;
+}
+
 #imgDestak {
     display: block;
     margin: auto;
@@ -57,4 +66,29 @@
     text-indent: 30px;
     text-align: justify;
     line-height: 1.5em;
+}
+
+.container {
+    background-color: transparent;
+    height: 520px;
+    width: 100%;
+    
+    z-index: 1;
+    padding: 20px;
+    display: flex;
+    
+    align-items: center;
+    
+
+}
+
+.eend {
+    justify-content: end;
+}
+
+#Maincontainer {
+    display: block;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    z-index: 0;
+    width: 100%;
 }
