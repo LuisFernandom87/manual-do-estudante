@@ -71,24 +71,17 @@
 .container {
     background-color: transparent;
     height: 520px;
-    width: 100%;
-    
+    max-width: 100%;
     z-index: 1;
     padding: 20px;
     display: flex;
-    
-    align-items: center;
-    
-
 }
 
-.eend {
+.end {
     justify-content: end;
 }
 
 #Maincontainer {
-    display: block;
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     z-index: 0;
-    width: 100%;
 }
