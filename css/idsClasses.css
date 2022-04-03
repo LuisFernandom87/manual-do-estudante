@@ -81,13 +81,24 @@
 .container img {
     border-radius: 20px;
     box-shadow: 4px 4px 15px 1px rgba(0, 0, 0, 0.411);
+    min-width: 200px;
 }
 
 .end {
     justify-content: end;
 }
 
+.opts {
+    max-width: 500px;
+}
+
 #Maincontainer {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    z-index: 0;
+}
+
+#Maincontainer2 {
+    display: none;
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     z-index: 0;
 }
