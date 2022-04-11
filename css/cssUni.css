@@ -41,6 +41,16 @@
     --fontUbun: Ubuntu;
 }
 
+.texto {
+    margin: auto;
+    max-width: 900px;
+    padding: 20px;
+
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
 footer {
     display: flex;
     justify-content: center;

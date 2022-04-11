@@ -58,16 +58,6 @@
     margin-top: 20px;
 }
 
-.texto {
-    margin: 20px auto auto auto;
-    max-width: 900px;
-    padding: 20px;
-
-    text-indent: 30px;
-    text-align: justify;
-    line-height: 1.5em;
-}
-
 .container {
     background-color: transparent;
     height: 520px;
@@ -101,4 +91,10 @@
     display: none;
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     z-index: 0;
+}
+
+.molde {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
 }
