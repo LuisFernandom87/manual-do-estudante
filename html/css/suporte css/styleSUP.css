@@ -1,9 +1,5 @@
 @charset"UTF-8";
 
-body {
-    background-color: rgb(249, 192, 039);
-}
-
 form {
     display: flex;
     flex-direction: column;
@@ -16,8 +12,8 @@ form {
 
 main {
     display: flex;
-    gap: 20px;
     padding: 20px;
+    flex-direction: row;
     justify-content: space-between;
     max-width: 1000px;
     margin: auto;
