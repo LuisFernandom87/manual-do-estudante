@@ -7,7 +7,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family:  var(--fontBIZ), Arial, Helvetica, sans-serif;
+    
     text-decoration: none;
 }
 
@@ -38,7 +38,7 @@
     --degrade: linear-gradient(to bottom, var(--cor1), var(--cor2));
     --degradeR: linear-gradient(to bottom, var(--cor2), var(--cor1));
     --fontBIZ: BIZ UDPMincho;
-    --fontUbun: Ubuntu;
+    --fontUbun: "Ubuntu";
 }
 
 .texto {
