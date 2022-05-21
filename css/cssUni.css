@@ -30,7 +30,7 @@
 }
 
 :root {
-    --fontA: Source Code Pro;
+    --fontA: "Source Code Pro";
     --corFooter: #023047;
     --cor1: #9404b1;
     --cor2: #EC7357;
