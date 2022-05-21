@@ -34,4 +34,7 @@
     .opts {
         max-width: 100%;
     }
+    .molde {
+        padding: 0;
+    }
 }
