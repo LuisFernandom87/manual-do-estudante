@@ -33,7 +33,7 @@
 
 #header_background {
     background-color: var(--cor1);
-    height: 370px;
+    height: 400px;
 }
 
 .grid {
@@ -97,4 +97,25 @@
     max-width: 900px;
     margin: auto;
     padding: 20px;
+}
+
+#fraseAlb {
+    font-size: 36px;
+    line-height: 1.5em;
+    color: var(--cor2);
+    text-align: justify;
+}
+
+#Alb {
+    font-size: 36px;
+    color: var(--cor1);
+    
+}
+
+#fraseindex {
+    display: flex;
+    width:450px;
+    margin: 20px auto 20px auto; 
+    flex-direction: column;
+    
 }

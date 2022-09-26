@@ -173,6 +173,7 @@ navu ul li a{
 #logo {
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
 #logo p {
@@ -219,7 +220,6 @@ navu ul li a{
 
     
     align-items: center;
-    /*height: 60px;*/
     
     justify-content: space-between;
     padding: 10px;
@@ -325,33 +325,12 @@ navu ul li a{
     }
 }
 
-@media (max-width:910px) { 
-    #cole {
-        display: block;
-        text-align: left;
+@media (max-width:495px) { 
+    #header {
+
     }
 }
 
 #logoImgResponsa {
     display: none;
 }
-
-@media (max-width:460px) { 
-    #imgDestak {
-        width: 200px;
-    }
-    #logoImg {
-        margin: 0 5px auto auto;
-    }
-    #logoTxt {
-        display: none;
-    }
-    #logoImgResponsa {
-        display: block;
-        height: 50px;
-    }
-    #logo  p {
-        font-size: 20px;
-        margin-left: 20px;
-    }
-} 
