@@ -99,6 +99,10 @@ a:hover {
     gap: 10px;
 }
 
+#curlyy {
+    margin-left: -45px;
+}
+
 #backend {
     display: flex;
     flex-direction: column;
@@ -115,10 +119,19 @@ a:hover {
     .conteudo iframe{
         max-width: 300px;
     } 
+    #curlyy {
+        margin-left: -45px;
+    }
 }
 
 @media(max-width: 410px) {
     .tecpics {
         flex-direction: column;
+    }
+}
+
+@media(max-width: 430px) {
+    #curlyy {
+        margin-left: -25px;
     }
 }
