@@ -109,12 +109,12 @@
 #Alb {
     font-size: 36px;
     color: var(--cor1);
-    
+    line-height: 50px;
 }
 
 #fraseindex {
     display: flex;
-    width:450px;
+    max-width:300px;
     margin: 20px auto 20px auto; 
     flex-direction: column;
     
