@@ -325,9 +325,9 @@ navu ul li a{
     }
 }
 
-@media (max-width:495px) { 
-    #header {
-
+@media (max-width:493px) { 
+    #menu {
+        top: 80px;
     }
 }
 

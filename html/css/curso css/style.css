@@ -112,6 +112,9 @@ a:hover {
     .conteudo {
         flex-direction: column;
     }
+    .conteudo iframe{
+        max-width: 300px;
+    } 
 }
 
 @media(max-width: 410px) {
