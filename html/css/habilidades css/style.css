@@ -26,3 +26,16 @@ h1 {
 strong {
     color: var(--cor2);
 }
+
+#proxart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+}
+
+a {
+    color: #9404b1;
+    ;
+}
