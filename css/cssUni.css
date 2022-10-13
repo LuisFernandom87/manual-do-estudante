@@ -11,6 +11,10 @@
     text-decoration: none;
 }
 
+main {
+    margin-top: 70px;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -66,9 +70,7 @@ footer > a {
     color: white;
 }
 
-footer p {
-    padding: 20px;
-}
+
 
 #redes {
     display: flex;
@@ -142,23 +144,19 @@ nav ul ul{
     z-index: 17;
 }
 
-nav ul ul li a{
-    border-radius: 0px 20px;
-    justify-content: center;
-    
-}
+
 
 #gambiarra {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
     border-radius: 20px 0px;
 }
 
 nav ul li:hover ul{
     display: block;
     
-}
-
-navu ul li a{
-    display: block;
 }
 
                                         /* Ids and Classes */
@@ -188,29 +186,6 @@ navu ul li a{
     height: 50px;
 }
 
-#astra {
-    display: flex;
-    justify-content: center;
-}
-
-#astra p {
-    margin-left: -20px;
-    font-size: 30px;
-    color: white;
-}
-
-#astraImg {
-    width: 50px;
-    height: 50px;
-}
-
-#copyR  {
-    margin-left: 25px;
-    text-align: center;
-    margin-bottom: -40px;
-    color: white;
-}
-
 #header {
     display: flex;
     position: fixed;
@@ -226,10 +201,6 @@ navu ul li a{
     background-color: var(--cor1);
     z-index: 1000;
 }
-
-/*#header p {
-    padding: 20px;
-} */
 
 #menu {
     display: flex;
@@ -248,7 +219,6 @@ navu ul li a{
 }
 
                                         /*Media Querys*/
-
 @media screen and (max-width: 910px) { 
     #menu a {
         font-size: 17px;
@@ -278,9 +248,14 @@ navu ul li a{
         background-image: linear-gradient(to bottom, #f08870, #9710b3);
     }
     nav.active #menu{
+
         height: calc(100vh - 60px);
         visibility: visible;
         overflow-y: auto;
+    }
+    nav.active #menu li a {
+        display: flex;
+        flex-direction: row;
     }
     #menu a {
         display: block; /*ISSO AQUI DA MERDA*/
@@ -325,9 +300,9 @@ navu ul li a{
     }
 }
 
-@media (max-width:493px) { 
+@media (max-width:495px) { 
     #menu {
-        top: 70px;
+        top: 78px;
     }
 }
 

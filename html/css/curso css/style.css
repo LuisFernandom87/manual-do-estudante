@@ -10,10 +10,6 @@ nav a:hover {
     color: white;
 }
 
-main {
-    margin-top: 80px;
-}
-
 a {
     color: #8b42ff;
     transition: 0.5s;
