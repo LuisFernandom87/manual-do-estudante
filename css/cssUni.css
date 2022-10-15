@@ -26,11 +26,11 @@ main {
 
 ::-webkit-scrollbar-thumb {
     border-radius: 5px;
-    background-color: var(--cor3);
+    background-color: hsl(150, 60%, 63%);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #6baa9d;
+    background-color: hsl(150, 50%, 43%);
 }
 
 :root {
@@ -38,7 +38,7 @@ main {
     --corFooter: #023047;
     --cor1: #9404b1;
     --cor2: #EC7357;
-    --cor3: #5ba899;
+    --cor3: hsl(150, 60%, 63%);
     --degrade: linear-gradient(to bottom, var(--cor1), var(--cor2));
     --degradeR: linear-gradient(to bottom, var(--cor2), var(--cor1));
     --fontBIZ: BIZ UDPMincho;

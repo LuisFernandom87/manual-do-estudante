@@ -106,7 +106,7 @@ a:hover {
 #backend {
     display: flex;
     flex-direction: column;
-    background-color: hsl(150, 60%, 63%);
+    background-color: #68d9a1;
 }
 
 @media(max-width: 590px) {
