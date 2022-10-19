@@ -41,8 +41,8 @@ a {
 }
 
 @media (max-width: 630px) {
-    img {
+    .molde img {
         height: 300px;
     }
-    }
+    
 }
