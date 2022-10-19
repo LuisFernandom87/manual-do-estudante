@@ -39,3 +39,10 @@ a {
     color: #9404b1;
     ;
 }
+
+@media (max-width: 630px) {
+    img {
+        height: 300px;
+    }
+    }
+}
